@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title> 고객 센터 </title>
 <link rel="stylesheet" type="text/css" href="./css/bootstrap.min_4.5.0.css">
 <script src="./js/jquery-3.5.1.min.js" type="text/javascript"></script>
