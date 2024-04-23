@@ -109,7 +109,7 @@ tr:hover {
 							<a class="nav-link" href="./MainView.in">홈</a>
 						</li>
 						<li class="nav-playlist">
-							<a class="nav-link" href="./VideoMain.do">동영상</a>
+							<a class="nav-link" href="./VideoSelectAll.do">동영상</a>
 						</li>
 						<li class="nav-comment">
 							<a class="nav-link" href="./CommentStart.co">댓글</a>
