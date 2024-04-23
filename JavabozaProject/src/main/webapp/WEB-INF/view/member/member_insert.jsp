@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!DOCTYPE html>
 <html>
@@ -8,6 +9,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>회원 가입</title>
 
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min_4.5.0.css">
+
 <script src="./js/jquery-3.5.1.min.js" type="text/javascript"></script>
 
 <script src="./js/bootstrap.min_4.5.0.js" type="text/javascript"></script>
@@ -15,8 +18,8 @@
 <script src="./js/jquery.validate.min.js" type="text/javascript"></script>
 <script src="./js/validity.js" type="text/javascript"></script>
 
-
 <style>
+
 body {
    font-family: Arial, sans-serif;
    background-color: #f4f4f4;
@@ -91,6 +94,8 @@ button[type="submit"], button[type="reset"], button[onclick="window.location.hre
    text-decoration: none;
    border-radius: 5px;
    transition: background-color 0.3s ease;
+   border: 1px solid #ccc;
+   cursor: pointer;
 }
 
 </style>
@@ -186,14 +191,14 @@ $("input[id='user_id']").on("change", function() {
                 <label for="user_phone_num">전화번호 *</label>
                 <input type="tel" id="user_phone_num" name="user_phone_num" required>
             </div>
+            
             <div class="form-group" style="text-align: left">
                 <button type="submit">가입</button>
              <button type="reset">취소</button>
-             <button onclick="window.location.href='index.jsp'">홈으로</button>
-            </div>
+             <button onclick="window.location.href='index.jsp'">로그인</button>
+            </div>              
         </form>
-        
-        
+      
     </div>
 </div>
 
